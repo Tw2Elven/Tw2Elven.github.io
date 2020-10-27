@@ -1,0 +1,197 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.container-primario{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../imagens/guarapuava-dark.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+/*Estilização do menu*/
+
+.menu{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 1rem;
+    margin-bottom: 2rem;
+   /* background: red;*/
+}
+
+
+.redes-sociais{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 2s;
+
+}
+
+.redes-sociais a:hover > img{
+    position: relative;
+    top: 1.5rem;
+}
+
+
+/**/
+
+.logo{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.logo img{
+    width: 100%;
+    height: 80%;
+    opacity: 1;
+}
+
+
+/**/
+
+.centro{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+
+.centro .circular{
+   width: 25rem;
+   height: 25rem;
+    border-radius: 120rem;
+    background: black;
+    overflow: hidden;
+    color: black;
+    border: solid 2px #86E7B8;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.centro .circular img{
+    width: 100%;
+    height: 100%;
+}
+.centro .circular:hover > img{
+    opacity: 0.4;
+}
+
+
+.centro p{
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  opacity: 0;
+}
+
+.centro .circular:hover > p{
+    opacity: 1;
+}
+
+
+
+/**/
+.texto{
+    margin-bottom: 1rem;
+    color: #86E7B8;
+    font-style: italic;
+    font-weight: bold;  
+    text-shadow: 5px 10px 4px #000000;
+
+
+}
+.texto p{
+    font-size: 1.5rem;
+}
+
+
+/**/
+
+.flecha-seguinte-baixo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flecha-seguinte-lado{
+    position: absolute;
+    right: 1rem;
+    top: 10rem;
+    display: none;
+    height: 80%;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+
+/**/
+
+.biografia{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: -1;
+    
+}
+
+.bio-header{
+    width: 100%;
+    height: 15%;
+    background-color: #86E7B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+
+}
+
+.bio-header p{
+    margin-right: 3rem;
+    font-style: italic;
+    font-weight: bold; 
+    text-shadow: 5px 10px 4px #000000;
+}
+
+.bio-header img{
+    cursor: pointer;
+}
+
+.bio-main{
+    
+    width: 100%;
+    height: 85%;
+    position: relative;
+  
+}
+
+.bio-main p{
+    font-size: 13px;
+    position: absolute;
+    top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

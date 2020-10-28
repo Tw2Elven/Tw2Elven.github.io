@@ -8,7 +8,7 @@ gatilhoFechar.addEventListener('click', () => {
     bioPainel.style.opacity = '0'
     bioPainel.style.zIndex = '-1'
     */
-   document.body.style.overflow = 'unset'
+   document.body.style.overflow = ''
 
 })
 

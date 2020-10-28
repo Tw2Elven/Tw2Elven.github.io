@@ -194,7 +194,7 @@
 
 
 
-/*Ajustes relativos a alterações no eixo vertical possível em desktops. */
+/*Ajustes relativos a alterações no eixo vertical possível em desktops. 
 @media (min-height: 400px){
     .container-feitos{
         margin-top: 5rem;
@@ -332,3 +332,4 @@
     margin: 0.5rem;}
 }
 
+*/

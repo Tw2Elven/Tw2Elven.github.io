@@ -139,6 +139,22 @@
         font-size: 1.5rem;
     }
 
+
+    .centro .circular img{
+        opacity: 1;
+    }
+
+    .centro .circular:hover > img{
+    opacity: 0.4;
+    }
+
+    .centro p{
+    opacity: 0;}
+
+    .centro .circular:hover > p{
+        opacity: 1;
+    }
+
 }
 
 @media (min-width: 1300px ){

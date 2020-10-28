@@ -10,6 +10,6 @@ gatilhoFechar.addEventListener('click', () => {
 gatilhoBiografia.addEventListener('click', () => {
     bioPainel.style.opacity = '0.9'
     bioPainel.style.zIndex = '1'
-
+    document.body.style.overflow = 'hidden'
 })
 

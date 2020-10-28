@@ -45,8 +45,8 @@
 
 .secundariotxt{
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+    margin-left: 3.5rem;
+    font-size: 1.8rem;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -61,7 +61,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     position: relative;
 }
 

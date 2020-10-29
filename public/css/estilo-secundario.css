@@ -29,9 +29,9 @@
 .logo-secundaria{
     width: 50%;
     height: 10%;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .logo-secundaria img{
@@ -45,8 +45,8 @@
 
 .secundariotxt{
     margin-top: 1rem;
-    margin-left: 3.5rem;
-    font-size: 1.8rem;
+    margin-left: 4rem;
+    font-size: 2rem;
    display: flex;
    justify-content: center;
    align-items: center;

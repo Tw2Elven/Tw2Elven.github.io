@@ -8,7 +8,7 @@ gatilhoFechar.addEventListener('click', () => {
     bioPainel.style.opacity = '0'
     bioPainel.style.zIndex = '-1'
     */
-   document.body.style.overflow = ''
+  // document.body.style.overflow = ''
 
 })
 
@@ -18,6 +18,7 @@ gatilhoBiografia.addEventListener('click', () => {
     bioPainel.style.opacity = '0.9'
     bioPainel.style.zIndex = '1'
     */
-    document.body.style.overflow = 'hidden'
+   
+   // document.body.style.overflow = 'hidden'
 })
 

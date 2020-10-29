@@ -45,12 +45,16 @@
 
 .secundariotxt{
     margin: 2rem;
+    margin-left: 3rem;
     font-size: 1.5rem;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
+.text-destaque{
+    text-decoration: underline;
+}
 /**/
 
 .container-feitos{

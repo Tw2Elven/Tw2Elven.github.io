@@ -7,7 +7,7 @@ const divs = document.querySelectorAll('.divisao')
 gatilhosPrimarios.forEach(eachValue => {
     eachValue.addEventListener('click', () => {
         divs[1].style.display = 'flex'
-    
+        divs[1].style.zIndex = '1'
 
         divs[0].style.display = 'none'
         divs[2].style.display = 'none'
@@ -16,9 +16,10 @@ gatilhosPrimarios.forEach(eachValue => {
 
 gatilhosSecundarios.forEach(eachValue => {
     eachValue.addEventListener('click', () => {
-       
+        divs[1].style.zIndex = '-1'
         divs[0].style.display = 'flex'
         divs[2].style.display = 'flex'
         divs[1].style.display = 'none'
+        
     })
 })

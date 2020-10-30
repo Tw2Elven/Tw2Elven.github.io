@@ -9,7 +9,7 @@
     align-items: center;
     position: absolute;
     top: 0;
-   
+    z-index: -1;
 }
 
 /**/
@@ -29,9 +29,9 @@
 .logo-secundaria{
     width: 50%;
     height: 10%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
 }
 
 .logo-secundaria img{
@@ -44,17 +44,14 @@
 /**/
 
 .secundariotxt{
-    margin: 2rem;
-    margin-left: 3rem;
-    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.text-destaque{
-    text-decoration: underline;
-}
 /**/
 
 .container-feitos{
@@ -64,7 +61,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0.5rem;
+    margin-top: 2.5rem;
     position: relative;
 }
 

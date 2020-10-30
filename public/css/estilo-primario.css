@@ -52,8 +52,6 @@
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
 }
 
 .logo img{
@@ -93,20 +91,22 @@
 .centro .circular img{
     width: 100%;
     height: 100%;
+}
+.centro .circular:hover > img{
     opacity: 0.4;
 }
-
-
 
 
 .centro p{
   position: absolute;
   color: white;
   font-size: 2rem;
-  opacity: 1;
+  opacity: 0;
 }
 
-
+.centro .circular:hover > p{
+    opacity: 1;
+}
 
 
 
@@ -153,9 +153,9 @@
     height: 100%;
     background: black;
     color: white;
-    display: none;
+    opacity: 0;
+    z-index: -1;
     
-
 }
 
 .bio-header{
@@ -185,12 +185,12 @@
     width: 100%;
     height: 85%;
     position: relative;
-  
+    overflow: hidden;
 }
 
 .bio-main p{
     font-size: 13px;
-    position: absolute;
+  /*  position: absolute;*/
     top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;

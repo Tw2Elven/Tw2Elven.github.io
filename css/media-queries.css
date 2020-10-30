@@ -1,0 +1,152 @@
+@media (min-width: 500px){
+   
+    .social-container img{
+        width: 30%;
+        height: 100%;
+    }
+
+    .biografia-container footer img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .container-circular{
+        width: 30rem;
+        height: 30rem;
+        border-radius: 120rem;
+    }
+
+    .logo{
+        width: 40%;
+        height: 40%;
+    }
+    
+   
+
+    .footer-principal p{
+        font-size: 2vw;
+        margin-left: 2rem;
+    }
+
+    .frame-container{
+        width: 60%;
+        height: 60%;
+    }
+    .frame-container p{
+        font-size: 2vw;
+        margin-left: 7rem;
+    }
+}
+
+
+
+
+@media (min-width: 758px){
+    .biografia-container header p{
+        font-size: 7vw; 
+    }
+    .biografia-container main p{
+        font-size: 2.5vw;
+    }
+    .biografia-container footer img{
+        width: 40%;
+        height: 40%;
+    }
+    .social-container img{
+        width: 30%;
+        height: 100%;
+    }
+    .container-circular img{
+        opacity: 1;
+    }
+    .container-circular p {
+    display: none;}
+
+   
+
+    .logo{
+    width: 30%;}
+
+    .footer-principal p{
+        font-size: 1.5vw;}
+
+
+        .frame-container{
+            width: 35%;
+            height: 35%;
+        }    
+
+        .frame-container p{
+            font-size: 1.5vw;
+            margin-left: 5rem;
+            
+        }
+
+        .footer p{
+            font-size: 2vw;}
+}
+
+
+
+
+
+
+
+@media (min-width: 1024px){
+    .biografia-container header p{
+        font-size: 5vw; 
+    }
+    .biografia-container main p{
+        font-size: 2.3vw;}
+
+    .social-container img{
+        width: 35%;
+        height: 100%;
+    }
+
+    .footer p{
+        font-size: 2vw;
+        margin-left: 3rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+    .biografia-container header p{
+        font-size: 4vw; 
+    }
+    .biografia-container main p{
+        font-size: 2vw;}
+
+    .biografia-container footer img{
+         width: 30%;
+        height: 30%;
+    }
+
+    .social-container img{
+        width: 45%;
+        height: 100%;
+    }
+    .container-circular{
+        width: 38rem;
+        height: 38rem;
+        border-radius: 120rem;}
+
+    .container-circular p {
+        margin-left: 8rem;
+    }
+   
+    .footer p{
+        font-size: 1.5vw;
+        margin-left: 3rem;}
+}

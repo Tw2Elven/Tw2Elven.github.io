@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: underline;
+    color: inherit;
+}

@@ -65,6 +65,7 @@ function VerLink() {
             imagens.alt = 'Calçadas Gabirel Hugo Rios'
             desc.innerHTML = imagens.alt
             break;
+            /* Design e código fonte feito por Ricardo Didimo.*/
         case 7:
             aLink.href = 'https://www.facebook.com/1025632364186983/posts/1872991499451061/'
             imagens.alt = 'Revitalização rua Olinda'
